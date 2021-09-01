@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+    AUTHR: J4m3s w/ help from TacoAnon
+    DESCR: Personal startpage
+    BRWSR: Mozilla Firefox (Tested in WaterFox 35), Opera
+    NOTES: - To set links and search codes go to: js/scripts.js
+           - As you look through the source you may find that the code has some messy bits. I'm still working on this project and it is not 100% complete.
+-->
+<html id="Img" dir="ltr" lang="en-US">
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Welcome Home</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="icon" type="image/gif" href="media/favicon.gif">
+	<link rel="script" type="text/js" href="js/query.js">
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body onkeypress="javascript:myFunction(event);" onload="javascript:init();">
+<div class="bkgImg" id="bkgImg" ></div>
+<div class="con"  id="hlpCon">
+    <div class="hlpTog" onClick="javascript:toggleHelp()">X</div>
+    <b>Usage:</b> [!command] [qry]
+    <p class="pInd">Input a query without a command to query the selected search engine.<br/>
+                    Input a command by itself to select the search engine.<br/>
+                    Input a command with a query to query the desired search engine.</p>
+    <b>Available Commands:</b>
+    <ul id="bngLst" class="pInd"></ul>
+</div>
+<div id="welcome"></div>
+<div class="con"  id="bseCon">
+    <div class="hlpTog" onClick="javascript:toggleHelp();">?</div>
+    <input type="text" id="qry" value="" placeholder="" onkeypress="javascript:handleQuery(event,this.value);" />
+    <div id="mnuCon"><ul id="mnu"></ul></div>
+    <div id="weather" class="weather"></div>
+</div>
+
+<div id="secCon">
+	<input class="sec" type="text" id="sec" value="" placeholder="" onkeypress="javascript:youDidntSeeAnything(event, this.value);" />		
+</div>
+<div id="dv4"></div>
+<div id="musicCon">
+	<audio loop id="music" src="./media/music.ogg" onloadstart="this.volume=0.05" />
+</div>
+</body>
+</html>
