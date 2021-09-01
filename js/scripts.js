@@ -285,11 +285,11 @@ function myFunction (x) {
 //Themery
 
 var themelst = [
-    ["air","url('./media/Airplane\ Theme/airback.jpg')","./media/Airplane\ Theme/airdio.ogg", "auto"],
-    ["boobs","url('./media/Boobs\ Theme/boobs.jpg')",""],
-    ["cats","url('./media/Cat\ Theme/cats.jpg')","./media/Cat\ Theme/nyan.ogg", "auto"],
-    ["rain","url('./media/Rain\ Theme/rainback.jpg')","./media/Rain\ Theme/rain.ogg", "auto"],
-    ["default","url('./media/background.jpg')","./media/music.ogg"]
+    ["air","url('https://pin.redirectme.net/media/Airplane\ Theme/airback.jpg')","https://pin.redirectme.net/media/Airplane\ Theme/airdio.ogg", "auto"],
+    ["boobs","url('https://pin.redirectme.net/media/Boobs\ Theme/boobs.jpg')",""],
+    ["cats","url('https://pin.redirectme.net/media/Cat\ Theme/cats.jpg')","https://pin.redirectme.net/media/Cat\ Theme/nyan.ogg", "auto"],
+    ["rain","url('https://pin.redirectme.net/media/Rain\ Theme/rainback.jpg')","https://pin.redirectme.net/media/Rain\ Theme/rain.ogg", "auto"],
+    ["default","url('https://pin.redirectme.net/media/background.jpg')","https://pin.redirectme.net/media/music.ogg"]
 ];
 
 function themes (Thm) {
