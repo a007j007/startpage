@@ -15,7 +15,7 @@ a:hover, a:active { color: #555;/*fgcolor*/ }
 b { color: #c7c7c7;}
 
 .bkgImg {
-    background-image: url("../media/background.jpg");
+    background-image: url("https://pin.redirectme.net/media/background.jpg");
     background-size: cover; 
     background-position: center;
     -webkit-filter: blur(0px);
